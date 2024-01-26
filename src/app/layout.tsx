@@ -1,5 +1,4 @@
-import Dashboard from "@/components/dashboard";
-import Header from "@/components/Header";
+import Header from "../components/header";
 import Sidebar from "@/components/sidebar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
@@ -24,7 +23,6 @@ export default function RootLayout({
         <Header />
           <div className="flex flex-row">
             <Sidebar />
-            {/* <Dashboard /> */}
             {children}
           </div>
       </div>
